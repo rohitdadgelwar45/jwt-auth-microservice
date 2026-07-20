@@ -72,6 +72,7 @@
             <artifactId>jjwt-api</artifactId>
             <version>0.12.7</version>
         </dependency>
+        
 
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
@@ -86,6 +87,13 @@
             <version>0.12.7</version>
             <scope>runtime</scope>
         </dependency>
+        
+        <!-- password encryption means security -->
+        
+        <!-- <dependency>
+   		 <groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter-security</artifactId>
+		</dependency> -->
 
         <!-- Testing -->
         <dependency>
